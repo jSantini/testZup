@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">TestZup</string>
+    <string name="search_label">Search</string>
+    <string name="search_hint">Movie Title</string>
+    <string name="seach_movies_title">Encontrar filmes</string>
+    <string name="points">points</string>
+    <string name="votos">votes</string>
+    <string name="txt_enredo">Plot</string>
+    <string name="txt_director">Director</string>
+    <string name="txt_writer">Writer</string>
+    <string name="txt_actors">Actors</string>
+    <string name="txt_country">Country</string>
+    <string name="txt_languages">Languages</string>
+    <string name="favorite_label">Favorite</string>
+    <string name="favorites_list_label">See favorite list</string>
+    <string name="transition_background">BackgroundTransition</string>
+    <string name="msg_success_save_movie">Movie added to favorit list successfully </string>
+    <string name="msg_fail_save_movie">An error occurred when adding movie to favorite list</string>
+    <string name="msg_fail_load_movies">Could not load the favorite movies</string>
+    <string name="loading_movies">loading movies</string>
+    <string name="msg_internal_error">Internal error occurred</string>
+    <string name="msg_movie_has_favorite">This movie is already on your list</string>
+    <string name="no_results">No movie found</string>
+    <string name="msg_error_api">Sorry, service unavailable</string>
+    <string name="text_info_app">Welcome to TestZupApp. Learn all about the movies you like and ride your favorites list.</string>
+</resources>

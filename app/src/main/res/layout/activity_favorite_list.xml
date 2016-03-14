@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchMovieActivity">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@xml/toolbar"
+            ></include>
+
+        <RelativeLayout
+            android:id="@+id/loading_panel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:visibility="gone">
+
+            <ProgressBar
+                android:id="@+id/progress_movies"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:indeterminate="true"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/loading_movies"
+                android:layout_marginRight="@dimen/spacing_micro"
+                android:gravity="center_horizontal"
+                android:layout_below="@+id/progress_movies"
+                android:layout_marginTop="@dimen/spacing_normal"
+                />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txt_no_results"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/spacing_double"
+            android:text="@string/no_results"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/txt_detail"
+            android:visibility="gone"/>
+
+
+            <TextView
+                android:id="@+id/txt_info_app"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_info_app"
+                android:textColor="@color/colorWhite"
+                android:layout_marginLeft="@dimen/spacing_normal"
+                android:layout_marginRight="@dimen/spacing_normal"
+                android:layout_marginTop="@dimen/spacing_double"
+                android:background="@color/colorPrimaryDark"
+                android:padding="@dimen/spacing_double"
+                android:textSize="@dimen/detail_size_item"
+                android:layout_gravity="center_vertical"
+                android:visibility="gone"
+                />
+
+        <ListView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/list_favorite_movies"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+        <ListView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/list_movies"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.com.jsantini.testzup.view.activity.SearchMoviesActivity" >
+
+    <item
+        android:id="@+id/add_favorite"
+        android:icon="@drawable/ic_favorite_white_48dp"
+        app:actionViewClass="br.com.jsantini.testzup.view.activity.DetailMovieActivty"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:title="@string/favorite_label"/>
+
+</menu>

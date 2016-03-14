@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF5722</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorText">#F5F5DC</color>
+    <color name="backgroundDark">#1C1C1C</color>
+    <color name="colorAccent">#8B1A1A</color>
+    <color name="colorWhite">#ffffff</color>
+
+    <color name="colorComedyPrimary">#1de9b6</color>
+    <color name="colorComedyPrimaryDark">#19cc9f</color>
+    <color name="colorComedyText">#000000</color>
+    <color name="colorComedybackgroundDark">#b9f6ca</color>
+
+    <color name="colorDramaPrimary">#b388ff</color>
+    <color name="colorDramaPrimaryDark">#7e57c2</color>
+    <color name="colorDramaText">#ffffff</color>
+    <color name="colorDramabackgroundDark">#3F51B5</color>
+
+    <color name="colorActionPrimary">#00bad2</color>
+    <color name="colorActionPrimaryDark">#00a3b8</color>
+    <color name="colorActionText">#424242</color>
+    <color name="colorActionbackgroundDark">#008B8B</color>
+
+    <color name="colorHorrorPrimary">#A0522D</color>
+    <color name="colorHorrorPrimaryDark">#8B4513</color>
+    <color name="colorHorrorText">#ffffff</color>
+    <color name="colorHorrorbackgroundDark">#F4A460</color>
+
+</resources>
